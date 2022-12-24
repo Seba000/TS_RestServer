@@ -12,7 +12,7 @@ const Usuario = db.define('Usuario',{
         type: DataTypes.STRING
     },
     estado: {
-        type: DataTypes.TINYINT   
+        type: DataTypes.BOOLEAN   
     },
 });
 export default Usuario;

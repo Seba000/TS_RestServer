@@ -14,7 +14,7 @@ const Usuario = connection_1.default.define('Usuario', {
         type: sequelize_1.DataTypes.STRING
     },
     estado: {
-        type: sequelize_1.DataTypes.TINYINT
+        type: sequelize_1.DataTypes.BOOLEAN
     },
 });
 exports.default = Usuario;
